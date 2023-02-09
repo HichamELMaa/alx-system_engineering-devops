@@ -1,2 +1,2 @@
 #!/bin/bash
-own --from=betty guillaume hello
+own --from=guillaume betty hello
