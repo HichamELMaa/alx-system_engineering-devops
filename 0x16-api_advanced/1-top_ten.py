@@ -21,3 +21,4 @@ def top_ten(subreddit):
     top_10_posts = ""
     for post in hot_posts_json:
         top_10_posts += post.get("data").get("title") + "\n"
+    print(top_10_posts, end="")
